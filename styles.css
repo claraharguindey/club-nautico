@@ -15,7 +15,7 @@ body {
   color: #01487e;
   background-image: radial-gradient(
     circle at 1px 1px,
-    #01487e 1px,
+    #01487e87 1px,
     transparent 0
   );
   background-size: 30px 30px;
@@ -69,7 +69,9 @@ li {
   list-style-type: none;
   padding-bottom: 10px;
 }
-
+.symbol {
+  font-size: 18px;
+}
 .form {
   display: flex;
   flex-direction: column;
