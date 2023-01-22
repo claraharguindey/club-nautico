@@ -1,101 +1,103 @@
-
 @font-face {
-    font-family: FT88-school;
-    src: url("./fonts/FT88-School.woff");
+  font-family: FT88-school;
+  src: url('./src/fonts/FT88-School.woff');
 }
 
 @font-face {
-    font-family: Director;
-    src: url("./fonts/Director-Regular.woff");
+  font-family: Director;
+  src: url('./src/fonts/Director-Regular.woff');
 }
-
 
 body {
-    font-family: 'Director';
-    font-size: 1rem;
-    padding: 20px;
-    color: #01487e;
-    background-image: radial-gradient(circle at 1px 1px, #01487e 1px, transparent 0);
-    background-size: 30px 30px;
+  font-family: 'Director';
+  font-size: 1rem;
+  padding: 20px;
+  color: #01487e;
+  background-image: radial-gradient(
+    circle at 1px 1px,
+    #01487e 1px,
+    transparent 0
+  );
+  background-size: 30px 30px;
 }
 
 a {
-    color: inherit;
+  color: inherit;
 }
 
 #title {
-    margin-top: 180px;
+  margin-top: 180px;
 }
 
 .navigation__list {
-    padding-left: 0;
+  padding-left: 0;
 }
 
 .navigation__button,
 .navigation__button:visited {
-    color: #f706af;
+  color: #f706af;
 }
 
-h1, h2 {
-    font-family: 'FT88-school';
-    margin: 0;
-    padding-bottom: 5px;
+h1,
+h2 {
+  font-family: 'FT88-school';
+  margin: 0;
+  padding-bottom: 5px;
 }
 
 table {
-    border-collapse: separate; 
-    border-spacing: 0 2em;
+  border-collapse: separate;
+  border-spacing: 0 2em;
 }
 
 td {
-    border: 1px solid #01487e;
-    max-width: 400px;
-    padding: 20px;
-    background-color: white;
+  border: 1px solid #01487e;
+  max-width: 400px;
+  padding: 20px;
+  background-color: white;
 }
 
 tr {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 main {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 li {
-    list-style-type: none;
-    padding-bottom: 10px;
+  list-style-type: none;
+  padding-bottom: 10px;
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
-    max-width: 442px;
+  display: flex;
+  flex-direction: column;
+  max-width: 442px;
 }
 
 .form__label {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .form__input {
-    font-family: 'Director';
-    border: 1px solid #01487e;
-    margin-bottom: 10px;
-    padding: 5px;
+  font-family: 'Director';
+  border: 1px solid #01487e;
+  margin-bottom: 10px;
+  padding: 5px;
 }
 
 .form__button {
-    border: 0;
-    color: white;
-    background-color: #01487e;
-    font-family: 'Director';
-    font-size: 1rem;
-    cursor: pointer;
+  border: 0;
+  color: white;
+  background-color: #01487e;
+  font-family: 'Director';
+  font-size: 1rem;
+  cursor: pointer;
 }
 
 #flagRenderArea {
-    position: absolute;
-    left: 10px;
-    top: 0;
+  position: absolute;
+  left: 10px;
+  top: 0;
 }
-

@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Club náutico es un encuentro que tiene lugar un domingo al mes para navegar por Internet y crear webs poéticas">
+    <meta name="description"
+        content="Club náutico es un encuentro que tiene lugar un domingo al mes para navegar por Internet y crear webs poéticas">
     <meta name="keywords" content="HTML, CSS, web, poetic, creative, coding">
     <meta name="author" content="clara harguindey">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,50 +13,57 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js"></script>
     <title>club náutico</title>
 </head>
+
 <body onload="init();initFlag()">
     <header id="title">
         <h1>club náutico</h1>
         <h2>navigating and coding the Internet</h2>
         <nav class="navigation">
             <ul class="navigation__list">
-                <li class="navigation__button"> <span> &#9758;</span> <a href="https://tinyletter.com/clubnautico" target="_blank" rel="noopener noreferrer">únete aquí</a></li>
+                <li class="navigation__button"> <span> &#9758;</span> <a href="https://tinyletter.com/clubnautico"
+                        target="_blank" rel="noopener noreferrer">únete aquí</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section>
             <p>El club náutico se reúne un domingo al mes para navegar por Internet y programar webs poéticas.</p>
-            <p>*  Este club toma como referencia proyectos como <a href="https://sundaysites.cafe/" target="_blank" rel="noopener noreferrer">Sunday Sites</a> o <a href="https://html.energy/" target="_blank" rel="noopener noreferrer">HTML Energy.</a>
+            <p>* Este club toma como referencia proyectos como <a href="https://sundaysites.cafe/" target="_blank"
+                    rel="noopener noreferrer">Sunday Sites</a> o <a href="https://html.energy/" target="_blank"
+                    rel="noopener noreferrer">HTML Energy.</a>
             </p>
         </section>
         <section>
             <table>
                 <tr>
-                <td><span> @ </span> Biblioteca Eugenio Trías (Madrid)</td>
+                    <td><span> @ </span> Biblioteca Eugenio Trías (Madrid)</td>
                 </tr>
                 <tr>
-                    <td> <span>	
-                        &#9716;</span> 11:00 - 14:00</td>
+                    <td> <span>
+                            &#9716;</span> 11:00 - 14:00</td>
                 </tr>
                 <tr>
                     <td><span>&#10038;</span> El encuentro tiene dos partes:
                         <ul>
                             <li>1. Navegación (por webs bonitas)</li>
                             <li>2. Creación de una web en HTML y CSS durante 2 horas y puesta en común.</li>
-                            <li>Cada sesión tendrá un tema en torno al cual deberán desarrollarse los <i>sites</i>. </li>
+                            <li>Cada sesión tendrá un tema en torno al cual deberán desarrollarse los <i>sites</i>.
+                            </li>
                         </ul>
                     </td>
                 </tr>
             </table>
-            <form class="form" action="https://tinyletter.com/clubnautico" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/clubnautico', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+            <form class="form" action="https://tinyletter.com/clubnautico" method="post" target="popupwindow"
+                onsubmit="window.open('https://tinyletter.com/clubnautico', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
                 <label class="form__label" for="tlemail">Únete para enterarte del próximo encuentro:</label>
-                <input class="form__input" type="text" name="email" id="tlemail" placeholder="ejemplo@ejemplo.com"/>
-                <input type="hidden" value="1" name="embed"/>
-                <input type="submit" class="form__button"  value="enviar" />
+                <input class="form__input" type="text" name="email" id="tlemail" placeholder="ejemplo@ejemplo.com" />
+                <input type="hidden" value="1" name="embed" />
+                <input type="submit" class="form__button" value="enviar" />
             </form>
         </section>
     </main>
     <div id="flagRenderArea"></div>
-    <script src="./index.js"></script>
+    <script src="./flag.js"></script>
 </body>
+
 </html>
