@@ -33,6 +33,11 @@ a {
   padding-left: 0;
 }
 
+.blinkText {
+  animation: blinker 1s step-start infinite;
+  color: #79fe0c;
+}
+
 .navigation__button,
 .navigation__button:visited {
   color: #f706af;
@@ -102,4 +107,10 @@ li {
   position: absolute;
   left: 10px;
   top: 0;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
