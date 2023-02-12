@@ -15,7 +15,7 @@ body {
   color: #01487e;
   background-image: radial-gradient(
     circle at 1px 1px,
-    #01487e87 1px,
+    #01487e80 1px,
     transparent 0
   );
   background-size: 30px 30px;
@@ -23,24 +23,6 @@ body {
 
 a {
   color: inherit;
-}
-
-#title {
-  margin-top: 180px;
-}
-
-.navigation__list {
-  padding-left: 0;
-}
-
-.blinkText {
-  animation: blinker 1s step-start infinite;
-  color: #79fe0c;
-}
-
-.navigation__button,
-.navigation__button:visited {
-  color: #f706af;
 }
 
 h1,
@@ -74,13 +56,33 @@ li {
   list-style-type: none;
   padding-bottom: 10px;
 }
-.symbol {
-  font-size: 18px;
+
+.title {
+  margin-top: 180px;
 }
+
+.navigation__list {
+  padding-left: 0;
+}
+
+.blinkText {
+  animation: blinker 1s step-start infinite;
+  color: #79fe0c;
+}
+
+.navigation__button,
+.navigation__button:visited {
+  color: #f706af;
+}
+
+.symbol {
+  font-size: 20px;
+}
+
 .form {
   display: flex;
   flex-direction: column;
-  max-width: 442px;
+  max-width: 440px;
 }
 
 .form__label {
@@ -91,7 +93,8 @@ li {
   font-family: 'Director';
   border: 1px solid #01487e;
   margin-bottom: 10px;
-  padding: 5px;
+  padding: 10px;
+  color: #01487e;
 }
 
 .form__button {
@@ -101,6 +104,7 @@ li {
   font-family: 'Director';
   font-size: 1rem;
   cursor: pointer;
+  padding: 10px;
 }
 
 #flagRenderArea {
