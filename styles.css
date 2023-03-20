@@ -113,6 +113,9 @@ li {
   top: 0;
 }
 
+.icon {
+  text-decoration: none;
+}
 @keyframes blinker {
   50% {
     opacity: 0;
