@@ -116,6 +116,11 @@ li {
 .icon {
   text-decoration: none;
 }
+
+.image {
+  max-height: 300px;
+}
+
 @keyframes blinker {
   50% {
     opacity: 0;
