@@ -119,6 +119,7 @@ li {
 
 .image {
   max-height: 300px;
+  max-width: 100%;
 }
 
 @keyframes blinker {
