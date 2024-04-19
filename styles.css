@@ -1,15 +1,15 @@
 @font-face {
   font-family: FT88-school;
-  src: url('./src/fonts/FT88-School.woff');
+  src: url("./src/fonts/FT88-School.woff");
 }
 
 @font-face {
   font-family: Director;
-  src: url('./src/fonts/Director-Regular.woff');
+  src: url("./src/fonts/Director-Regular.woff");
 }
 
 body {
-  font-family: 'Director';
+  font-family: "Director";
   font-size: 1rem;
   padding: 20px;
   color: #01487e;
@@ -27,7 +27,7 @@ a {
 
 h1,
 h2 {
-  font-family: 'FT88-school';
+  font-family: "FT88-school";
   margin: 0;
   padding-bottom: 5px;
 }
@@ -48,13 +48,8 @@ tr {
   margin-bottom: 10px;
 }
 
-main {
-  margin-top: 20px;
-}
-
 li {
   list-style-type: none;
-  padding-bottom: 10px;
 }
 
 .title {
@@ -83,14 +78,20 @@ li {
   display: flex;
   flex-direction: column;
   max-width: 440px;
+  color: #01487e;
+  margin: 12px 0;
 }
 
 .form__label {
   margin-bottom: 10px;
 }
 
+input {
+  border: 1px solid #01487e;
+}
+
 .form__input {
-  font-family: 'Director';
+  font-family: "Director";
   border: 1px solid #01487e;
   margin-bottom: 10px;
   padding: 10px;
@@ -101,10 +102,10 @@ li {
   border: 0;
   color: white;
   background-color: #01487e;
-  font-family: 'Director';
+  font-family: "Director";
   font-size: 1rem;
   cursor: pointer;
-  padding: 10px;
+  padding: 8px;
 }
 
 #flagRenderArea {
