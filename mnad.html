@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="Club náutico es un encuentro que tiene lugar un domingo al mes para navegar por Internet y crear webs poéticas">
+    <meta name="keywords" content="HTML, CSS, web, poetic, creative, coding">
+    <meta name="author" content="clara harguindey">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#01487e">
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js"></script>
+    <title>club 🌊 náutico</title>
+</head>
+
+<body onload="init();initFlag()">
+    <header class="title">
+        <h1>club náutico</h1>
+        <h2>navigating and coding the Internet</h2>
+        <h3>MNAD ⚓ Una web que se desborda</h3>
+        <i>18 de febrero 2025, 16h-20h</i>
+    </header>
+    <main>
+        <section>
+            <table>
+                <tr>
+                    <td>
+                        <span class="symbol"> @ </span>
+                        Museo Nacional de Artes Decorativas, Madrid
+                        <br><br>
+                        Pablo Reinoso - La vida se mueve
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="symbol">&#10038;</span> ¿Qué es el desbordamiento?
+                        <br><br>
+                        El overflow es lo que ocurre cuando el contenido de un elemento es más grande que su contenedor. 
+                        <br><br>
+                        En CSS, podemos decidir qué hacer con ese desbordamiento:
+                        <ul>
+                            <li><strong>overflow: visible</strong> - el contenido se sale y se ve (por defecto)</li>
+                            <li><strong>overflow: hidden</strong> - lo que se sale se oculta, se corta</li>
+                            <li><strong>overflow: scroll</strong> - aparecen barras de desplazamiento</li>
+                            <li><strong>overflow: auto</strong> - barras solo si hace falta</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        1. Si necesitas un borrador para empezar, puedes editar este <a href="https://codepen.io/clara_harguindey/pen/JoKqGGB?editors=1100" target="_blank" rel="noopener noreferrer">de aquí</a> 
+                        (no necesitas cuenta para empezar).
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        2. Aquí hay un resumen de todas las etiquetas 
+                        <a href="https://www.w3schools.com/tags/default.asp" target="_blank"
+                            rel="noopener noreferrer">HTML</a> que existen.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        3. Para entender mejor de qué hablamos cuando hablamos de HTML, lee esta 
+                            <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank"
+                            rel="noopener noreferrer">documentación</a>.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        4. Para usar imágenes, solo puedes usar URLs. Puedes subir tus fotos a 
+                        <a href="https://imgur.com/upload" target="_blank" rel="noopener noreferrer">Imgur</a> 
+                        y copiar el enlace directo.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="symbol">~</span> Al final de la sesión:
+                        <ul>
+                            <li>Haz clic en "Save" en CodePen (arriba a la derecha)</li>
+                            <li>Copia la URL de tu pen</li>
+                            <li>Pásala a través del formulario que compartiremos</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ✶ Referencias para soñar otras webs
+                        <br><br>
+                        <a href="https://indieweb.org/" target="_blank" rel="noopener noreferrer">
+                            IndieWeb</a>
+                        <br><br>
+                        <a href="https://sundaysites.cafe/" target="_blank" rel="noopener noreferrer">
+                            Sundays sites</a>
+                        <br><br>
+                        <a href="https://html.energy/" target="_blank" rel="noopener noreferrer">
+                            HTML energy</a>
+                        <br><br>
+                        <a href="http://motherfuckingwebsite.com/" target="_blank" rel="noopener noreferrer">
+                            a motherfucking web manifesto</a>
+                        <br><br>
+                        <a href="https://www.are.na/block/20037775" target="_blank" rel="noopener noreferrer">What
+                            website should I design?</a>
+                        <br><br>
+                        <a href="https://ambient.institute/i/poeticweb/" target="_blank" rel="noopener noreferrer">
+                            Making a poetic web(site)</a>
+                        <br><br>
+                        <a href="https://www.are.na/esther-bouquet/a-website-as-a-poem-a-garden-a-portal-a-place-of-gathering-and-more"
+                            target="_blank" rel="noopener noreferrer">
+                            a website as a poem, a garden, a portal, a place of gathering and more</a>
+                        <br><br>
+                        <a href="https://herdimasanggara.com/" target="_blank" rel="noopener noreferrer">
+                            ritual engineer</a>
+                        <br><br>
+                        <a href=" http://www.ismycomputeron.com/" target="_blank" rel="noopener noreferrer">
+                            IS MY COMPUTER ON?</a>
+                        <br><br>
+                        <a href="https://wwwwwwwww.jodi.org/" target="_blank" rel="noopener noreferrer">
+                            jodi</a>
+                        <br><br>
+                        <a href="https://secretgeek.github.io/html_wysiwyg/" target="_blank" rel="noopener noreferrer">
+                            WYSIWYG</a>
+                        <br><br>
+                        <a href="https://thedigitaldiarist.ca/links/rethink-the-web" target="_blank"
+                            rel="noopener noreferrer">
+                            rethink the web</a>
+                        <br><br>
+                        <a href="https://poetryslash.com/" target="_blank" rel="noopener noreferrer">
+                            Poetry Slash</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img class="image" src="src/media/clubnautico.png">
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <div id="flagRenderArea"></div>
+    <script src="./flag.js"></script>
+</body>
+
+</html>
