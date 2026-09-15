@@ -69,7 +69,7 @@
     </header>
     <main>
         <section>
-            <p>El club náutico se reúne periodicamente para navegar por Internet y programar webs poéticas.</p>
+            <p>El club náutico se reúne periodicamente para navegar por Internet y programar webs poéticas con HTML.</p>
             <p>* Este club toma como referencia proyectos como <a href="https://sundaysites.cafe/" target="_blank"
                     rel="noopener noreferrer">Sunday Sites</a>, <a href="https://incompleto.github.io/surfclub/"
                     target="_blank" rel="noopener noreferrer">el Surf Club</a> y <a href="https://html.energy/"
@@ -80,20 +80,27 @@
             <table>
                 <tr>
                     <td>
+                        Próxima sesión: <code>&lt;audio/&gt;</code>, una web que te canta con
+                        <a href="https://instagram.com/irenegarry" target="_blank"
+                            rel="noopener noreferrer">@irenegarry</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <span class="symbol"> @ </span>
-                       Por definir
+                        CCCQS Quinta del sordo Centro de Creación Contemporánea
                     </td>
                 </tr>
                 <tr>
                     <td>
                         <span class="symbol">
                             &#9716;</span>
-                            ¡Pronto anunciaremos la próxima sesión!
+                        1 de octubre 18:00
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        Inscripciones: <a href="https://docs.google.com/forms/d/e/1FAIpQLSfDbW7HN29D8OaePkjdzddiHJJG3ur-1d4ILmNGdxXY8xPLHQ/viewform" target="_blank" rel="noopener noreferrer">aquí</a>.
+                        Inscripciones: <span id="mail"></span>
                     </td>
                 </tr>
                 <tr>
@@ -241,10 +248,14 @@
                         sesión #9: una web que se desborda
                         <br>
                         <br>
-                        <a href="http://nautico.aedm.org.es/" target="_blank" class="icon" rel="noopener noreferrer">⚓</a>
-                        <a href="https://rubngarcaesd.neocities.org/05/" target="_blank" class="icon" rel="noopener noreferrer">⚓</a>
-                        <a href="https://irenearespasamar13.neocities.org/club-nautico/volcan" target="_blank" class="icon" rel="noopener noreferrer">⚓</a>
-                        <a href="https://irenearespasamar13.neocities.org/club-nautico/agua" target="_blank" class="icon" rel="noopener noreferrer">⚓</a>
+                        <a href="http://nautico.aedm.org.es/" target="_blank" class="icon"
+                            rel="noopener noreferrer">⚓</a>
+                        <a href="https://rubngarcaesd.neocities.org/05/" target="_blank" class="icon"
+                            rel="noopener noreferrer">⚓</a>
+                        <a href="https://irenearespasamar13.neocities.org/club-nautico/volcan" target="_blank"
+                            class="icon" rel="noopener noreferrer">⚓</a>
+                        <a href="https://irenearespasamar13.neocities.org/club-nautico/agua" target="_blank"
+                            class="icon" rel="noopener noreferrer">⚓</a>
                     </td>
                 </tr>
                 </tr>
@@ -253,6 +264,13 @@
     </main>
     <div id="flagRenderArea"></div>
     <script src="./flag.js"></script>
+    <script>
+        (function () {
+            const u = 'clara', d = 'clubnautico.website';
+            document.getElementById('mail').innerHTML =
+                '<a href="mailto:' + u + '@' + d + '">' + u + '@' + d + '</a>';
+        })();
+    </script>
 </body>
 
 </html>
