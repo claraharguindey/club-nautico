@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Una web que canta</title>
+</head>
+
+<body>
+    <header class="cabecera">
+        <h1 class="titulo-principal">Una web que canta</h1>
+    </header>
+    <main class="contenido-principal">
+        <section>
+            <p>Aquí hay un campo de texto</p>
+            <textarea class="campo-texto">🌳🌳🌳🌳🌳🌳🌳</textarea>
+            <details>
+                <summary>Aquí un</summary>
+                <small>secreto oculto</small>
+            </details>
+            <p>Aquí una imagen</p>
+            <img src="https://imagenrota.com/" alt="que solo podemos imaginar" />
+        </section>
+
+        <section>
+            <h2>Algunos cantares para imaginar un cante</h2>
+            <figure>
+                <figcaption>mira como canta</figcaption>
+                <audio controls
+                    src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Autumn_%28song_of_the_seasons%29_-_audio.ogg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original">
+                    <p>Tu navegador no soporta audio HTML5.</p>
+                </audio>
+                <p class="audio-error" hidden>Este audio no funciona en tu navegador.</p>
+                <a
+                    href="https://upload.wikimedia.org/wikipedia/commons/e/e8/Autumn_%28song_of_the_seasons%29_-_audio.ogg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original">
+                    Descargar audio </a>
+            </figure>
+            <figure>
+                <figcaption>mira como no dice ni mu</figcaption>
+                <audio controls src="">
+                    <p>Tu navegador no soporta audio HTML5.</p>
+                </audio>
+                <p class="audio-error" hidden>Este audio no funciona en tu navegador.</p>
+            </figure>
+        </section>
+
+        <section>
+            <h2>Atributos de &lt;audio&gt;</h2>
+            <dl>
+                <dt><code>src</code></dt>
+                <dd>Ruta del archivo de audio. Alternativa a poner varios <code>&lt;source&gt;</code> dentro.</dd>
+
+                <dt><code>controls</code></dt>
+                <dd>Muestra los controles del navegador (play, volumen, barra de progreso). Sin él, el audio es
+                    invisible.</dd>
+
+                <dt><code>autoplay</code></dt>
+                <dd>Intenta reproducir al cargar la página. Casi todos los navegadores lo bloquean salvo que también
+                    lleve <code>muted</code>.</dd>
+
+                <dt><code>muted</code></dt>
+                <dd>Empieza silenciado.</dd>
+
+                <dt><code>loop</code></dt>
+                <dd>Vuelve a empezar al terminar.</dd>
+            </dl>
+        </section>
+    </main>
+    <footer class="pie-de-pagina">
+        <p>Club náutico, <time>2026</time></p>
+    </footer>
+
+</body>
+
+</html>
